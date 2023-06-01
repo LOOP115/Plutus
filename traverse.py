@@ -1,6 +1,6 @@
 import re
 import requests
-from init import login, domain, flag_pattern
+from init import domain, flag_pattern
 
 
 dir_pattern = r'<td><a href="([^"]+)">\1<\/a><\/td>'
